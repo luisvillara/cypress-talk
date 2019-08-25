@@ -1,0 +1,22 @@
+{
+  "name": "cypress-talk",
+  "version": "1.0.0",
+  "description": "Cypress simple example using react version of todomvc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisvillara/cypress-talk.git"
+  },
+  "author": "Luis Villalobos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisvillara/cypress-talk/issues"
+  },
+  "homepage": "https://github.com/luisvillara/cypress-talk#readme",
+  "devDependencies": {
+    "cypress": "^3.4.1"
+  }
+}
