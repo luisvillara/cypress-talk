@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Cypress simple example using react version of todomvc",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "cy:open": "cypress open"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luisvillara/cypress-talk.git"
