@@ -9,7 +9,10 @@ context('Testing test', () => {
 
   it('Validar si la tarea por defecto es creada', () => {
     cy.get('.todo-list li').should('have.length', 1);
-    cy.get('.todo-list li:first .view label').contains('Use Redux');
+    cy.get('.todo-list li:first .view label')
+      .and(($div) => {
+        expect($div.text()).to.eq('Use Redux');
+      });
   });
 
   it('Agregar 1 todo', () => {
